@@ -303,6 +303,11 @@ img {
 }
 
 @media (max-width: 576px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .top-bar .row > div {
     text-align: center !important;
     justify-content: center !important;
@@ -313,14 +318,30 @@ img {
     font-size: 1.6rem;
   }
 
+  .navbar-nav {
+    gap: 0.35rem;
+    padding-top: 0.5rem;
+  }
+
   .hero .carousel-item {
     min-height: 480px;
+    height: 70vh;
+  }
+
+  .carousel-indicators {
+    margin-left: 5%;
+    margin-bottom: 1rem;
   }
 
   .carousel-caption {
     left: 5%;
     right: 5%;
     bottom: 10%;
+  }
+
+  .hero-badge {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.7rem;
   }
 
   .carousel-caption h1 {
@@ -332,6 +353,14 @@ img {
     height: 220px;
   }
 
+  .feature-icon-badge {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
   .info-box,
   .feature-side-card {
     padding: 16px;
@@ -341,8 +370,17 @@ img {
     min-height: 440px;
   }
 
+  .video-overlay {
+    padding: 18px 12px;
+  }
+
   .video-overlay h2 {
     font-size: 1.5rem;
+  }
+
+  .video-frame {
+    min-height: 220px;
+    margin-top: 1rem;
   }
 
   .property-card img {
