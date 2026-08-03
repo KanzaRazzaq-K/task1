@@ -7,6 +7,9 @@
     margin-left: 600px;
     margin-top: 50px;
 }
+#h11{
+    font-size: 80px;
+}
 .k{
     margin:20px;
     text-align:justify;
@@ -39,6 +42,12 @@
     background-color:rgb(238, 234, 234);
     font-size: 20px;
 }
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(129, 125, 125, 0.2);
+    background-color: rgb(238, 234, 234);
+    font-size: 20px;
+}
 .con{
     position: relative;
     text-align: center;
@@ -46,10 +55,11 @@
 }
 .cen{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+
+    font-size: 120px;
 }
 .lef{
     position: relative;
@@ -62,12 +72,14 @@
     left:600px;
     font-size: 70px;
 }
-.btn{
-    background-color: rgb(10, 6, 1);
-    color:white;
-    MARGIN-LEFT: 150PX;
-    MARGIN-BOTTOM: 40PX;
-    font-size: 50px
+.btn {
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    background-color: black;
+    color: white;
+    font-size: 2500px;
+    padding: 20px 50px;
 }
 .hh{
     display:flex;
@@ -75,13 +87,17 @@
     font-size: 40px;
 }
 .m{
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: right;
     text-align: right;
-    font-size:40px
+    font-size:60px
 }
 .l{
     display: flex;
     flex-direction: row;
-    gap:3000px
+    gap:4500px
 }
 .hs{
     font-size:100px;
@@ -89,6 +105,7 @@
 .ii{
     font-size:80px;
     margin-top: 90px;
+    JUSTIFY-CONTENT: RIGHT;
 }
 #i1{
     width: 100%; height:1500px;
@@ -106,7 +123,8 @@
     height: 900px; width:1000px;
 }
 #hl1{
-    color:red
+    color:red;
+    font-size: 50px;
 }
 #d1{
     background-color:rgb(223, 227, 227)
@@ -129,11 +147,46 @@
     margin-top: 50px;
 }
 #i3{
-    width: 100%; height:1500px;
+    width: 100%; 
+    height:1500px;
+    display:block;
+}
+.vv{
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #p3{
     font-size: 150px;
-    margin-left:1500px
+    text-align: center;
 } h4{
     font-size: 50px;
+}
+#ss1{
+    color:black;
+} 
+#n1{
+    background-color:black;
+    PADDING:20PX;
+}
+#nn1{
+    color:white;
+}
+#sst{
+    color:orange;
+    font-size: 30px;
+}
+.SS1{
+    display:flex;
+    flex-direction: row;
+    GAP: 400PX;
+    color:orange;
+}
+#l11{
+    font-size: 300px; 
+}
+#d1{
+    font-size: 40px;
+    background-color:rgb(238, 234, 234);
 }
