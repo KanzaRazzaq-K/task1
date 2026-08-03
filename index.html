@@ -13,13 +13,15 @@
   <header class="top-bar">
     <div class="container">
       <div class="row align-items-center py-2">
-        <div class="col-md-4 small text-muted">
-          <i class="fa-solid fa-envelope me-2 text-orange"></i> info@company.com
+        <div class="col-lg-4 col-md-6 mb-2 mb-md-0 small text-muted">
+          <i class="fa-solid fa-envelope me-2 text-orange"></i>
+          <span>info@company.com</span>
         </div>
-        <div class="col-md-4 small text-muted text-center">
-          <i class="fa-solid fa-location-dot me-2 text-orange"></i> Sunny Isles Beach, FL 33160
+        <div class="col-lg-4 col-md-6 mb-2 mb-md-0 small text-muted text-center">
+          <i class="fa-solid fa-location-dot me-2 text-orange"></i>
+          <span>Sunny Isles Beach, FL 33160</span>
         </div>
-        <div class="col-md-4 d-flex justify-content-md-end gap-2">
+        <div class="col-lg-4 col-md-12 d-flex justify-content-lg-end justify-content-md-start gap-2">
           <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
@@ -50,7 +52,7 @@
   <section class="hero">
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
         <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
       </div>
@@ -88,15 +90,20 @@
     </div>
   </section>
 
-  <section class="featured py-5">
-    <div class="container">
+  <section class="featured-section" id="section-2">
+    <div class="container py-5 my-5">
       <div class="row g-4 align-items-center">
+        <div class="col-lg-1 d-none d-lg-block">
+          <span class="feature-icon-badge">
+            <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-notes-communication-and-media-flatart-icons-outline-flatarticons.png" alt="Notes icon" />
+          </span>
+        </div>
         <div class="col-lg-4">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIuMNZSLXbxgGxFe8vLo5Dpi6Z8Qvq5RbHhQ&s" class="featured-image" alt="Featured villa" />
         </div>
-        <div class="col-lg-5">
-          <p class="text-danger fw-bold mb-3">| Featured</p>
-          <h2 class="display-5 fw-bold mb-4">Best Apartment<br />Sea View</h2>
+        <div class="col-lg-4">
+          <p class="section-label text-danger">| Featured</p>
+          <h2 class="section-title">Best<br />Apartment<br />Sea View</h2>
           <div class="info-box">
             <p class="fw-bold text-orange mb-2">Best useful links?</p>
             <p class="mb-3">Get <span class="fw-bold">the best villa</span> website template in HTML, CSS and Bootstrap for your business. TemplateMo provides you the best free CSS template in the world.</p>
@@ -144,7 +151,7 @@
       <div class="video-hero">
         <img src="https://cdn.pixabay.com/photo/2018/01/09/10/34/tree-3071284_960_720.jpg" class="video-bg" alt="Background" />
         <div class="video-overlay">
-          <p class="text-orange fw-bold mb-2">| VIDEO VIEW</p>
+          <p class="section-label text-orange">| VIDEO VIEW</p>
           <h2 class="text-white text-center fw-bold">Get Closer View &<br />Different Feeling</h2>
           <div class="ratio ratio-16x9 video-frame">
             <iframe src="https://www.youtube.com/embed/kvQUx9g9Xo4?si=sPmQuq34ycj248HE" title="YouTube video player" allowfullscreen></iframe>
@@ -154,27 +161,36 @@
     </div>
   </section>
 
-  <section class="stats py-4">
+  <section class="stats-section py-4">
     <div class="container">
       <div class="row g-4 justify-content-center">
-        <div class="col-md-3">
-          <div class="stat-card">34<br /><span>250 m2</span></div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card">
+            <div class="stat-number">34</div>
+            <div class="stat-label">Buildings</div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <div class="stat-card">34<br /><span>250 m2</span></div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card">
+            <div class="stat-number">12</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
         </div>
-        <div class="col-md-3">
-          <div class="stat-card">34<br /><span>250 m2</span></div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-card">
+            <div class="stat-number">24</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="properties py-5">
+  <section class="properties-section py-5">
     <div class="container">
       <div class="text-center mb-5">
-        <p class="text-danger fw-bold">| PROPERTIES</p>
-        <h2 class="display-5 fw-bold">We Provide The<br />Best Property You Like</h2>
+        <p class="section-label text-danger">| PROPERTIES</p>
+        <h2 class="section-title center">We Provide The<br />Best Property You<br />Like</h2>
       </div>
       <div class="row g-4">
         <div class="col-lg-4">
