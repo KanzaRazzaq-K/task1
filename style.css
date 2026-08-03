@@ -60,6 +60,19 @@ img {
   filter: brightness(0.7);
 }
 
+.carousel-indicators {
+  justify-content: flex-start;
+  margin-left: 8%;
+  margin-bottom: 2rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fd7e14;
+}
+
 .carousel-caption {
   position: absolute;
   left: 8%;
@@ -96,11 +109,49 @@ img {
   filter: invert(1) grayscale(1);
 }
 
+.featured-section {
+  position: relative;
+}
+
+.feature-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fd7e14;
+  padding: 16px;
+}
+
+.feature-icon-badge img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .featured-image {
   width: 100%;
-  height: 360px;
+  height: 420px;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.section-label {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.section-title.center {
+  text-align: center;
 }
 
 .info-box {
@@ -146,6 +197,11 @@ img {
   justify-content: flex-start;
 }
 
+.video-overlay h2 {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
 .video-frame {
   max-width: 1000px;
   width: 100%;
@@ -172,7 +228,7 @@ img {
   color: #fd7e14;
 }
 
-.stat-card span {
+.stat-label {
   display: block;
   font-size: 1rem;
   color: #333;
@@ -274,11 +330,6 @@ img {
 
   .featured-image {
     height: 220px;
-  }
-
-  .featured h2,
-  .properties h2 {
-    font-size: 1.8rem;
   }
 
   .info-box,
