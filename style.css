@@ -1,0 +1,139 @@
+.jk{
+    display:flex;
+    flex-direction:row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.k{
+    margin:20px;
+    text-align:justify;
+    height: 1000px; width:1000px;
+}
+.a{
+    background-color:rgb(231, 142, 54); 
+    height: 200px; 
+    width: 400px;
+    font-size: 50px;
+    text-align: center;
+}
+.pa{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    display:flex;
+    flex-direction: row;
+    gap :200px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(129, 125, 125, 0.2);
+    background-color:rgb(238, 234, 234);
+    font-size: 20px;
+}
+.con{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.cen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+.lef{
+    position: relative;
+    text-align: left;
+    color:white;
+}
+.left{
+    position: absolute;
+    top:100px;
+    left:600px;
+    font-size: 70px;
+}
+.btn{
+    background-color: rgb(10, 6, 1);
+    color:white;
+    MARGIN-LEFT: 150PX;
+    MARGIN-BOTTOM: 40PX;
+    font-size: 50px
+}
+.hh{
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+.m{
+    text-align: right;
+    font-size:40px
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    gap:3000px
+}
+.hs{
+    font-size:100px;
+}
+.ii{
+    font-size:80px;
+    margin-top: 90px;
+}
+#i1{
+    width: 100%; height:1500px;
+}
+.b1{
+    background-color:white; font-size:50px;
+}
+#s1{
+    color:orange;
+}
+.p1{
+    color:white; font-size:150px;
+}
+#s2{
+    height: 900px; width:1000px;
+}
+#hl1{
+    color:red
+}
+#d1{
+    background-color:rgb(223, 227, 227)
+}
+#p2{
+    font-size: 60px;
+}
+#s2{
+    color:orange;
+}
+#s3{
+    color:blue;
+}
+#i2{
+    width: 100%; height:1500px;
+}
+#v1{
+    
+    margin-left: 50px; 
+    margin-top: 50px;
+}
+#i3{
+    width: 100%; height:1500px;
+}
+#p3{
+    font-size: 150px;
+    margin-left:1500px
+} h4{
+    font-size: 50px;
+}
